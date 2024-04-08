@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Mail Sender</title>
+</head>
+<body>
+<h1>Mail Sender</h1>
+<form id="mailForm" enctype="multipart/form-data">
+    <label for="to">To:</label><br>
+    <input type="email" id="to" name="to" required><br>
+    <label for="subject">Subject:</label><br>
+    <input type="text" id="subject" name="subject" required><br>
+    <label for="message">Message:</label><br>
+    <textarea id="message" name="message" required></textarea><br>
+    <label for="attachment">Attachment:</label><br>
+    <input type="file" id="attachment" name="attachment"><br> <br>
+    <button type="submit">Send Mail</button>
+</form>
+<script src="script.js"></script>
+</body>
+</html>
